@@ -707,7 +707,7 @@ h2 {
 .modal-content {
     margin: 0 auto;
     width: 100%;
-    max-width: 1100px;
+    max-width: 14000px;
     background: linear-gradient(145deg, #161b22, #0d1117);
     border: 1px solid rgba(55, 148, 255, 0.25);
     border-radius: 20px;
@@ -745,7 +745,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.25rem 1.75rem;
+    padding: 1.5rem 2.25rem;
     border-bottom: 1px solid rgba(48, 54, 61, 0.8);
     background: rgba(22, 27, 34, 0.6);
     gap: 1rem;
@@ -778,7 +778,7 @@ h2 {
 
 #modal-title {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     font-weight: 700;
     margin: 0;
     background: linear-gradient(135deg, #ffffff 30%, #3794ff);
@@ -818,14 +818,14 @@ h2 {
 
 /* Modal Body */
 .modal-body {
-    padding: 1.5rem 1.75rem;
+    padding: 2rem 2.25rem;
     background: rgba(13, 17, 23, 0.5);
 }
 
 #modal-img {
     width: 100%;
     height: auto;
-    max-height: 72vh;
+    max-height: 80vh;
     object-fit: contain;
     border-radius: 12px;
     border: 1px solid rgba(48, 54, 61, 0.6);
@@ -835,7 +835,7 @@ h2 {
 
 #modal-video {
     width: 100%;
-    max-height: 72vh;
+    max-height: 80vh;
     border-radius: 12px;
     border: 1px solid rgba(48, 54, 61, 0.6);
     box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5);
@@ -860,13 +860,13 @@ h2 {
 
 /* Modal Footer Description */
 .modal-footer-desc {
-    padding: 1.25rem 1.75rem 1.75rem;
+    padding: 1.5rem 2.25rem 2.25rem;
     border-top: 1px solid rgba(48, 54, 61, 0.5);
 }
 
 #modal-desc {
     color: #c9d1d9;
-    font-size: 0.95rem;
+    font-size: 1.05rem;
     line-height: 1.75;
     text-align: left;
     padding: 0.75rem 1rem;
