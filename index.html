@@ -316,13 +316,22 @@
     <!-- Modal for details -->
     <div id="modal" class="modal">
         <div class="modal-content">
-            <span class="close">&times;</span>
-            <h3 id="modal-title"></h3>
-            <img id="modal-img" src="" alt="Detail" style="display: none;">
-            <video id="modal-video" controls style="display: none;">
-                <source src="" type="video/mp4">
-            </video>
-            <div id="modal-desc"></div>
+            <div class="modal-header">
+                <div class="modal-title-group">
+                    <span class="modal-badge"><i class="fas fa-cube"></i> Project</span>
+                    <h3 id="modal-title"></h3>
+                </div>
+                <button class="close"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="modal-body">
+                <img id="modal-img" src="" alt="Detail" style="display: none;">
+                <video id="modal-video" controls style="display: none;">
+                    <source src="" type="video/mp4">
+                </video>
+            </div>
+            <div class="modal-footer-desc">
+                <div id="modal-desc"></div>
+            </div>
         </div>
     </div>
 
